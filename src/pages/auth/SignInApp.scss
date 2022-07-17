@@ -1,0 +1,129 @@
+@import "../../theme/variables.scss";
+
+#login-page ion-row {
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.content {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.emailRow {
+  margin-top: getSpace("xl");
+  margin-bottom: getSpace("l") !important;
+
+  .email-label {
+    margin-bottom: 10px;
+  }
+}
+
+#login-page .ionItem {
+  padding: 0px !important;
+  --padding-start: 0px !important;
+  --inner-padding-end: 0px !important;
+  .pass-label {
+    margin-bottom: 10px;
+  }
+}
+
+.ionInput {
+  color: #9a9a9a;
+  border-bottom: 1px solid getColor("utility", "separator") !important;
+}
+
+.ionInput input {
+  color: #9a9a9a;
+  $InputHeight1: getSpace("xl");
+  $InputHeight2: getSpace("xxs");
+  height: $InputHeight1 + $InputHeight2 !important;
+}
+
+.errorRow {
+  white-space: pre-line !important;
+  margin-top: -106px !important;
+  margin-left: 0px;
+}
+
+.submitRow {
+  --ion-color-base: #183E74;
+}
+
+#login-page ion-item {
+  width: var(--loginPageElementsWidth, 256px);
+  max-height: 32vh;
+}
+
+.buttonSubmit {
+  align-items: center;
+  $height: getSpace("xl");
+  width: var(--loginPageElementsWidth, 256px) !important;
+  height: $height - 4px !important;
+  border-radius: getSpace("xxxs") !important;
+  text-transform: uppercase;
+
+  margin-top: 25px;
+}
+
+.buttonForgotPassword {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: var(--ion-font-family-noto-sans);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.8px;
+  color: #9a9a9a;
+
+  --box-shadow: none !important;
+  $height: getSpace("xl");
+  width: var(--loginPageElementsWidth, 256px) !important;
+  height: $height - 4px !important;
+  margin: 0px !important;
+
+  ion-button {
+    text-transform: lowercase;
+  }
+}
+
+.loginAccountError {
+  margin-right: getSpace("s");
+  margin-top: -20px;
+}
+
+.loginEmptyError {
+  margin-right: getSpace("xxl");
+  margin-top: -20px !important;
+}
+
+.passwordEmptyError {
+  margin-right: getSpace("xxl");
+  margin-top: 10px;
+  justify-content: center;
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 992px to higher resolution desktops
+*/
+
+@media (min-width: 992px) {
+  #login-page {
+    --loginPageElementsWidth: 320px;
+  }
+}
+/* Change the white to any color ;) */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  // -webkit-box-shadow: 0 0 0 30px getColor("background", "base") inset !important;
+  // -webkit-text-fill-color: #fff;
+  -webkit-box-shadow: 0 0 0 30px #f7f1f1;
+  -webkit-text-fill-color: #403d3d;
+}

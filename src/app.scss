@@ -1,0 +1,56 @@
+@import "./theme/fonts";
+@import "./theme/variables";
+
+.toolbar-background-md,
+.toolbar-background-ios,
+.toolbar-background-wp {
+  background-color: color(white, "primary");
+}
+
+.tab-selected {
+  color: black;
+
+  ion-label {
+    font-family: var(--ion-font-family-roboto);
+    font-style: var(--ion-font-style);
+    font-weight: var(--ion-font-weight);
+    font-size: 12px;
+    line-height: var(--ion-line-height-type0);
+    color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+ion-tab-bar {
+  justify-content: space-evenly;
+  height: 9vh;
+}
+
+
+ion-content {
+  --offset-bottom: auto !important;
+  --overflow: hidden;
+  overflow: auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+};
+
+.settings-icon{
+  padding: 0% 0% 0% 0%;
+  height: 149%;
+  width: 8%;
+  margin-left: 87%;
+  margin-top:4%;
+}
+
+.ion-img{
+  width:50%;
+  margin-left:auto;
+  margin-right: auto;
+  height: 130%;
+} ::after{
+  width: 20%;
+}

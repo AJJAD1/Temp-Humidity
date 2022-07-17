@@ -1,0 +1,137 @@
+// @import "../../theme/variables.scss";
+
+// .largeTitle {
+//   @include font("largeTitle");
+// }
+
+// .title1 {
+//   @include font("title1");
+// }
+
+// .title2 {
+//   @include font("title2");
+// }
+
+// .title3 {
+//   @include font("title3");
+// }
+
+// .heading1 {
+//   @include font("heading1");
+// }
+
+// .heading2 {
+//   @include font("heading2");
+// }
+
+// .body1 {
+//   @include font("body1");
+// }
+
+// .body2 {
+//   @include font("body2");
+// }
+
+// .button1 {
+//   @include font("button");
+// }
+
+// .caption1 {
+//   @include font("caption1");
+// }
+
+// .caption2 {
+//   @include font("caption2");
+// }
+
+// /** Colors **/
+// .primaryColor {
+//   @include color("primary", "base");
+// }
+
+// .critical {
+//   @include color("critical", "base");
+// }
+
+// .white32 {
+//   @include color("whiteColor", "a32");
+// }
+
+// .white64 {
+//   @include color("whiteColor", "a64");
+// }
+
+// .default {
+//   @include color("whiteColor", "a96");
+// }
+
+// /*......different font style................*/
+// .heading {
+//   @include font($fontSize: 28px, $lineHeight: 36px);
+//   letter-spacing: -0.3px;
+// }
+
+// .body {
+//   @include font($fontSize: 16px, $lineHeight: 24px);
+// }
+
+// .body-small {
+//   @include font($fontSize: 14px, $lineHeight: 20px);
+// }
+
+// .tiny {
+//   @include font($fontSize: 10px, $lineHeight: 14px);
+// }
+
+// .button-font {
+//   @include font($fontSize: 14px, $lineHeight: 24px);
+//   font-weight: bold;
+// }
+
+// .caption {
+//   @include font($fontSize: 12px, $lineHeight: 18px);
+// }
+
+// .body-bold {
+//   @include font($fontSize: 16px, $lineHeight: 24px);
+//   font-weight: bold;
+// }
+
+// /*......different color................*/
+// .dark {
+//   @include color("dark", "Dark");
+// }
+
+// .subdued {
+//   @include color("subdued", "Subdued");
+// }
+
+// .soft {
+//   @include color("soft", "Soft");
+// }
+// .icons {
+//   @include color("icons", "Icons");
+// }
+// .border {
+//   @include color("border", "Border");
+// }
+
+// .brand {
+//   @include color("brand", "Brand");
+// }
+
+// .light {
+//   @include color("light", "Light");
+// }
+
+// .iconSoft {
+//   @include color("iconSoft", "Icon-Soft");
+// }
+
+// .backgroundBlur {
+//   @include color("backgroundBlur", "Background-Blur");
+// }
+
+// .shadow {
+//   @include color("shadow", "Shadow");
+// }

@@ -1,0 +1,23 @@
+{
+  
+  "home-title": "Hello.",
+  "home-subtitle": "",
+  "home-nodisplay": "",
+
+ 
+  "login-button": "login",
+
+  "password": "Enter your password",
+  "email": "Enter your E-mail",
+  "login-error": "Email cannot be empty",
+  "login-account-does-not-exist": "login account doesn't exist",
+
+  "forgot-password-title": "RESET YOUR PASSWORD",
+  "forgot-password-subtitle": "Enter the email address associated with your account and we'll send you a code to reset your password.",
+  "change-password-title": "CHANGE PASSWORD",
+  "change-password-subtitle": "Enter the code from your email and set a new password.",
+  "forgot-password-message-title": "We sent you an email with a code.If the email doesn't appear within a few minutes,check your spam folder.",
+  "forgot-password-code": "Code",
+  "forgot-password-enter-code": "Enter your code here",
+  "auth-setNewPassword": "Enter your password"
+}
